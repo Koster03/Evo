@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,27 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public hello = 'Hello';
-
-  public cars = [
-    {
-      Name: 'Audi',
-      Price: 100,
-      Release: new Date(),
-    },
-    {
-      Name: 'BMW',
-      Price: 200,
-      Release: new Date(),
-    },
-    {
-      Name: 'HAVAL',
-      Price: 300,
-      Release: new Date(),
-    },
-    {
-      Name: 'LADA',
-      Price: 400,
-      Release: new Date(),
-    },
-  ];
 }
