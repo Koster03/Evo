@@ -1,0 +1,8 @@
+<h3 *ngIf="model">Товар: {{ model.name }}</h3>
+
+<button routerLink="details">Детальная информация</button>
+<button routerLink="list" [queryParams]="{ list: '1', enable: true }">
+  list
+</button>
+
+<router-outlet></router-outlet>
